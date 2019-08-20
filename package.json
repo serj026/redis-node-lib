@@ -7,7 +7,7 @@
     "url": "git+ssh://git@github.com:serj026/redis-node-lib.git"
   },
   "keywords": [],
-  "author": "serj026",
+  "author": "Serhii Franchuk",
   "scripts": {
     "build": "npm run clean && npm run tslint && ./node_modules/typescript/bin/tsc -p .",
     "clean": "./node_modules/rimraf/bin.js dist",
