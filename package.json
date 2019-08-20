@@ -1,0 +1,25 @@
+{
+  "name": "redis-node-lib",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:serj026/redis-node-lib.git"
+  },
+  "keywords": [],
+  "author": "serj026",
+  "scripts": {
+    "build": "npm run clean && npm run tslint && ./node_modules/typescript/bin/tsc -p .",
+    "clean": "./node_modules/rimraf/bin.js dist",
+    "tslint": "./node_modules/tslint/bin/tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {
+    "redis": "2.8.0",
+    "@types/redis": "^2.8.7"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.6",
+    "tslint": "^5.9.1",
+    "rimraf": "^2.6.2"
+  }
+}
