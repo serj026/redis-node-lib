@@ -14,7 +14,7 @@
     "tslint": "./node_modules/tslint/bin/tslint -c tslint.json -p tsconfig.json"
   },
   "dependencies": {
-    "redis": "2.8.0",
+    "redis": "3.1.1",
     "@types/redis": "^2.8.7"
   },
   "devDependencies": {
